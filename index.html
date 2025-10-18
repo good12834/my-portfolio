@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Zewdu - Full Stack Developer | Building Digital Solutions</title>
+    <meta name="description" content="Full Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio of innovative projects and get in touch for collaboration.">
+    <meta name="keywords" content="Full Stack Developer, React, Node.js, JavaScript, Web Development, Portfolio">
+    <meta name="author" content="T Zewdu">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tzewdu.goodtess.com">
+    <meta property="og:title" content="T Zewdu - Full Stack Developer">
+    <meta property="og:description" content="Building seamless experiences from pixel to protocol. View my portfolio of innovative web applications.">
+    <meta property="og:image" content="https://www.tzewdu.com/images/portfolio-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tzewdu.goodtess.com">
+    <meta property="twitter:title" content="T Zewdu - Full Stack Developer">
+    <meta property="twitter:description" content="Building seamless experiences from pixel to protocol. View my portfolio of innovative web applications.">
+    <meta property="twitter:image" content="https://www.tzewdu.com/images/portfolio-preview.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <a class="sidebar-brand" href="#home" aria-label="T Zewdu Portfolio Home">TZ</a>
+            <button class="sidebar-close" onclick="toggleSidebar()" aria-label="Close sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="sidebar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home" onclick="toggleSidebar()" aria-label="Navigate to Home section">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" onclick="toggleSidebar()" aria-label="Navigate to About section">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects" onclick="toggleSidebar()" aria-label="Navigate to Projects section">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills" onclick="toggleSidebar()" aria-label="Navigate to Skills section">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resume" onclick="toggleSidebar()" aria-label="Navigate to Resume section">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact" onclick="toggleSidebar()" aria-label="Navigate to Contact section">Contact</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <!-- Theme toggle removed as requested -->
+        </div>
+    </div>
+
+    <!-- Sidebar Toggle Button -->
+    <button class="sidebar-toggle" onclick="toggleSidebar()" aria-label="Toggle sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content-wrapper">
+                <div class="hero-header">
+                    <div class="hero-left">
+                        <!-- Left side empty for balance -->
+                    </div>
+                    <div class="hero-right">
+                        <h1 class="fade-in">T Zewdu</h1>
+                        <div class="role fade-in">Full Stack Developer</div>
+                    </div>
+                </div>
+                <div class="hero-main">
+                    <p class="tagline fade-in">Building <span id="typing-text"></span></p>
+                    <p class="mission fade-in">I'm a passionate Full Stack Developer who loves creating digital solutions that make a difference. From crafting pixel-perfect user interfaces to architecting robust backend systems, I bring ideas to life with clean, efficient code.</p>
+                    <div class="cta-buttons fade-in">
+                        <a href="#projects" class="btn btn-primary" aria-label="View my projects">
+                            <i class="fas fa-rocket"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline" aria-label="Contact me">
+                            <i class="fas fa-paper-plane"></i>
+                            Let's Work Together
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="about-content text-center fade-in">
+                        <div class="avatar">
+                            <div class="avatar-bg"></div>
+                            <img src="./images/WIN_20251017_11_03_33_Pro.jpg" alt="T Zewdu" class="avatar-icon" width="100" height="100">
+                        </div>
+                        <h2 class="mb-4">About Me</h2>
+                        <p class="lead mb-4">Hi! I'm T Zewdu, a passionate Full Stack Developer with 6+ months of experience.</p>
+                        <div class="timeline mt-5">
+                            <div class="timeline-item fade-in">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-briefcase" aria-hidden="true"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h4>Full Stack Developer</h4>
+                                  
+                                    <p>Building responsive web applications using modern technologies like React, Node.js, and MySQL.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item fade-in">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h4>Web Development Bootcamp</h4>
+                                    <p style="color: #b0b0b0;">Online Course | March 2025 - SEP 2025</p>
+                                    <p>Mastered full-stack development with hands-on projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Technologies I Love</h2>
+                <p class="section-subtitle fade-in">Hover over each icon to see my experience level and favorite use cases</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-6 col-md-3 col-lg-2 fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-react" aria-hidden="true"></i>
+                        <div class="tech-tooltip">React - Advanced</div>
+                    </div>
+                    <h6 style="color: #d0d0d0; margin-top: 1rem;">React</h6>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-node-js" aria-hidden="true"></i>
+                        <div class="tech-tooltip">Node.js - Advanced</div>
+                    </div>
+                    <h6 style="color: #d0d0d0; margin-top: 1rem;">Node.js</h6>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 fade-in">
+                    <div class="tech-icon">
+                        <i class="fas fa-database" aria-hidden="true"></i>
+                        <div class="tech-tooltip">MySQL - Intermediate</div>
+                    </div>
+                    <h6 style="color: #d0d0d0; margin-top: 1rem;">MySQL</h6>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-js-square" aria-hidden="true"></i>
+                        <div class="tech-tooltip">JavaScript - Advanced</div>
+                    </div>
+                    <h6 style="color: #d0d0d0; margin-top: 1rem;">JavaScript</h6>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-bootstrap" aria-hidden="true"></i>
+                        <div class="tech-tooltip">Bootstrap - Advanced</div>
+                    </div>
+                    <h6 style="color: #d0d0d0; margin-top: 1rem;">Bootstrap</h6>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5" aria-hidden="true"></i>
+                        <div class="tech-tooltip">HTML5 - Advanced</div>
+                    </div>
+                    <h6 style="color: #d0d0d0; margin-top: 1rem;">HTML5</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - Fixed -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Featured Projects</h2>
+                <p class="section-subtitle fade-in">Here are some of my most impressive works that showcase my full-stack capabilities</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Netflix Clone -->
+                <div class="project-card project-featured fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/489242a2-854b-4253-8557-dd26340b3231.png" alt="Netflix Clone">
+                        <div class="project-overlay">
+                            <div class="project-category">Streaming Platform</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/net-clone2025" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://net-clone-tzewdu-b87087.netlify.app/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>Netflix Clone</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-eye"></i> 2.5K</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Full-stack streaming platform with React frontend, Node.js backend, and TMDB API integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amazon Clone -->
+                <div class="project-card fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/d10346fa-0a01-4ef6-bfd7-75144304ab6f.png" alt="Amazon Clone">
+                        <div class="project-overlay">
+                            <div class="project-category">E-Commerce</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/Amazon-clone-frontend-deploy" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://amazon-clone-tzewdu-581109.netlify.app/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>Amazon Clone</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-users"></i> 1.8K</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Scalable e-commerce solution with payment processing, user authentication, and inventory management.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Render</span>
+                            <span class="tech-item">Stripe</span>
+                            <span class="tech-item">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evangadi Forum -->
+                <div class="project-card fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/Screenshot 2025-10-18 152033.png" alt="Evangadi Forum">
+                        <div class="project-overlay">
+                            <div class="project-category">Community Platform</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/evangadi-forum" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://evangadiforum.goodtess.com/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>Evangadi Forum</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-comments"></i> Active</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Professional discussion platform with real-time messaging, role-based access, and content moderation.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">MySQL</span>
+                            <span class="tech-item">JWT</span>
+                            <span class="tech-item">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TimeTrack Pro -->
+                <div class="project-card project-featured fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/timetrickr.png" alt="TimeTrack Pro">
+                        <div class="project-overlay">
+                            <div class="project-category">Productivity Tool</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/Worker-Time-Tracking" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://worker-time-tracking-by-tzewdu-baa89b.netlify.app/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>TimeTrack Pro</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-chart-line"></i> Analytics</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Enterprise-grade time tracking solution with advanced analytics, team management, and reporting features.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">bootstrap</span>
+                            <span class="tech-item">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website -->
+                <div class="project-card fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/prto2.png" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-category">Portfolio Website</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/portfolio" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://portfolio-tzewdu-698951.netlify.app/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>Portfolio Website</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-palette"></i> Design</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Modern, responsive portfolio website showcasing projects, skills, and experience with smooth animations and professional design.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gym Website -->
+                <div class="project-card fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/gym1.png" alt="Gym Website">
+                        <div class="project-overlay">
+                            <div class="project-category">Fitness Website</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/gymwebsite" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://gym-website-tzwdu-c99e80.netlify.app/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>Gym Website</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-dumbbell"></i> Fitness</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Dynamic fitness website with membership plans, class schedules, trainer profiles, and responsive design for gym management.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Website -->
+                <div class="project-card fade-in">
+                    <div class="project-thumbnail">
+                        <img src="./images/Screenshot 2025-10-18 005255.png" alt="Restaurant Website">
+                        <div class="project-overlay">
+                            <div class="project-category">Restaurant Website</div>
+                            <div class="overlay-actions">
+                                <a href="https://github.com/good12834/Restaurant" class="overlay-btn github" target="_blank" aria-label="View GitHub repository">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://good12834.github.io/Restaurant/" class="overlay-btn demo" target="_blank" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                            <div class="react-icon-overlay">
+                                <i class="fab fa-react"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h4>Restaurant Website</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><i class="fas fa-utensils"></i> Culinary</span>
+                                <span class="status-badge completed">Live</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">Modern restaurant website with online ordering system, menu display, and reservation functionality built with React.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">bootstrap</span>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Skills & Tools</h2>
+                <p class="section-subtitle fade-in">My technical expertise across the full development stack</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 fade-in">
+                    <div class="skill-category">
+                        <h4 class="mb-3"><i class="fas fa-palette text-primary"></i> Frontend</h4>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Next.js</div>
+                        <div class="skill-item">JavaScript</div>
+                        <!-- <div class="skill-item">TypeScript</div> -->
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS</div>
+                        <div class="skill-item">Bootstrap</div>
+                        <!-- <div class="skill-item">Tailwind CSS</div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 fade-in">
+                    <div class="skill-category">
+                        <h4 class="mb-3"><i class="fas fa-server text-primary"></i> Backend</h4>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express</div>
+                        <div class="skill-item">MySQL</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 fade-in">
+                    <div class="skill-category">
+                        <h4 class="mb-3"><i class="fas fa-tools text-primary"></i> DevOps & Tools</h4>
+                        <div class="skill-item">GitHub Actions</div>
+                        <div class="skill-item">Netlify</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Resume</h2>
+                <p class="section-subtitle fade-in">My professional background and experience</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="resume-content fade-in">
+                        <div class="resume-header">
+                            <h3>T ZEWDU</h3>
+                            <p class="role">Full Stack Developer</p>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Contact Information</h4>
+                            <div class="contact-info">
+                                <p><strong>Email:</strong> goodpersonh208686@gmail.com</p>
+                                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/good-man-15b4252a8/" target="_blank">https://www.linkedin.com/in/good-man-15b4252a8/</a></p>
+                                <p><strong>GitHub:</strong> <a href="https://github.com/good12834" target="_blank">https://github.com/good12834</a></p>
+                                <p><strong>Portfolio:</strong> <a href="https://tzewdu.goodtess.com" target="_blank">tzewdu.goodtess.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Professional Summary</h4>
+                            <p>Dedicated and self-motivated Full Stack Developer with 6 months of intensive hands-on experience in modern web development. Demonstrated ability to rapidly acquire new technologies through self-directed learning, progressing from Python fundamentals to full-stack proficiency in 6 months. Passionate about creating innovative digital solutions with clean, efficient, and scalable code.</p>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Education</h4>
+                            <div class="education-item">
+                                <h5>Full Stack Web Development Bootcamp</h5>
+                                <p class="institution">Evangadi Institute | USA</p>
+                                <p class="duration">March 2025 - September 2025</p>
+                                <ul>
+                                    <li>Completed intensive 6-month full-stack development program</li>
+                                    <li>Mastered modern web technologies including React, Node.js, and database design</li>
+                                    <li>Developed multiple production-ready applications with real-world functionality</li>
+                                    <li>Gained expertise in responsive design, API development, and deployment</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Technical Skills</h4>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h5>Frontend Development:</h5>
+                                    <ul>
+                                        <li>React.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap</li>
+                                        <li>Responsive Web Design, UI/UX Principles</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Backend Development:</h5>
+                                    <ul>
+                                        <li>Node.js, Express.js, RESTful APIs</li>
+                                        <li>MySQL, Database Design & Optimization</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Development Tools:</h5>
+                                    <ul>
+                                        <li>Git & GitHub, VS Code, Netlify</li>
+                                        <li>Chrome DevTools, Postman API Testing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Professional Projects</h4>
+                            <div class="project-item">
+                                <h5>NETFLIX CLONE</h5>
+                                <p class="project-tech">Full-Stack Streaming Platform | React, Node.js, TMDB API</p>
+                                <ul>
+                                    <li>Developed responsive Netflix-inspired streaming platform</li>
+                                    <li>Implemented movie browsing, search, and user interface</li>
+                                    <li>Integrated external APIs for dynamic content loading</li>
+                                    <li>Deployed on Netlify: <a href="https://net-clone-tzewdu-b87087.netlify.app/" target="_blank">Live Demo</a></li>
+                                </ul>
+                            </div>
+                            <div class="project-item">
+                                <h5>AMAZON CLONE</h5>
+                                <p class="project-tech">E-Commerce Platform | React, Node.js, MongoDB, Stripe</p>
+                                <ul>
+                                    <li>Built comprehensive e-commerce solution with shopping cart functionality</li>
+                                    <li>Implemented user authentication and secure payment processing</li>
+                                    <li>Designed scalable database architecture for product management</li>
+                                    <li>Live deployment: <a href="https://amazon-clone-tzewdu-581109.netlify.app/" target="_blank">Live Demo</a></li>
+                                </ul>
+                            </div>
+                            <div class="project-item">
+                                <h5>EVANGADI FORUM</h5>
+                                <p class="project-tech">Community Discussion Platform | React, MySQL, WebSocket</p>
+                                <ul>
+                                    <li>Created professional discussion forum with real-time messaging</li>
+                                    <li>Implemented role-based access control and content moderation</li>
+                                    <li>Developed responsive UI with modern social features</li>
+                                    <li>Built with scalable backend architecture</li>
+                                </ul>
+                            </div>
+                            <div class="project-item">
+                                <h5>TIMETRACK PRO</h5>
+                                <p class="project-tech">Productivity & Analytics Tool | React, MongoDB, Chart.js</p>
+                                <ul>
+                                    <li>Enterprise-grade time tracking application with advanced analytics</li>
+                                    <li>Features team collaboration and comprehensive reporting</li>
+                                    <li>Currently in beta development phase</li>
+                                </ul>
+                            </div>
+                            <div class="project-item">
+                                <h5>PORTFOLIO WEBSITE</h5>
+                                <p class="project-tech">Personal Branding Platform | HTML, CSS, JavaScript, Bootstrap</p>
+                                <ul>
+                                    <li>Modern, responsive portfolio website showcasing development projects</li>
+                                    <li>Implemented smooth animations and professional design principles</li>
+                                    <li>Optimized for performance and user experience</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Continuous Learning</h4>
+                            <p>Currently pursuing advanced skills in:</p>
+                            <ul>
+                                <li>AWS Cloud Services (EC2, S3, Lambda functions)</li>
+                                <li>Advanced React patterns and performance optimization</li>
+                                <li>Database optimization and cloud architecture</li>
+                                <li>DevOps practices and CI/CD pipelines</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Professional Strengths</h4>
+                            <ul>
+                                <li>Self-motivated and disciplined learner with proven ability to master complex technologies</li>
+                                <li>Strong analytical thinking and problem-solving capabilities</li>
+                                <li>Attention to detail with focus on code quality and user experience</li>
+                                <li>Collaborative team player with excellent communication skills</li>
+                                <li>Passionate about staying current with industry best practices</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-section">
+                            <h4>Languages</h4>
+                            <ul>
+                                <li>English (Professional working proficiency)</li>
+                                <li>Amharic and Tigrinya (Native language)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Let's Work Together</h2>
+                <p class="section-subtitle fade-in">Have a project in mind? I'd love to hear about it!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form fade-in">
+                        <form name="contact" method="POST" data-netlify="true" onsubmit="handleSubmit(event)">
+                            <input type="hidden" name="form-name" value="contact" />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required aria-label="Your Name">
+                                    <div id="name-error" class="error-message" style="display: none; color: #ff6b6b; font-size: 0.875rem; margin-top: 0.25rem;"></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required aria-label="Your Email">
+                                    <div id="email-error" class="error-message" style="display: none; color: #ff6b6b; font-size: 0.875rem; margin-top: 0.25rem;"></div>
+                                </div>
+                            </div>
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required aria-label="Subject">
+                            <div id="subject-error" class="error-message" style="display: none; color: #ff6b6b; font-size: 0.875rem; margin-top: 0.25rem;"></div>
+                            <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                            <div id="message-error" class="error-message" style="display: none; color: #ff6b6b; font-size: 0.875rem; margin-top: 0.25rem;"></div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary" aria-label="Send Message">Send Message</button>
+                            </div>
+                        </form>
+                        <p class="text-center mt-3" style="color: #b0b0b0; font-size: 0.9rem;">Or email me directly at: <a href="mailto:goodpersonh208686@gmail.com" style="color: var(--primary-color);">goodpersonh208686@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h4 class="mb-4 fade-in">Connect With Me</h4>
+                    <div class="social-links d-flex justify-content-center fade-in">
+                        <a href="https://www.linkedin.com/in/good-man-15b4252a8/" target="_blank" aria-label="Visit LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/good12834" target="_blank" aria-label="Visit GitHub profile"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/tzewdu" target="_blank" aria-label="Visit Twitter profile"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:goodpersonh208686@gmail.com" aria-label="Send email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="mt-4 fade-in">
+                        <!-- Temporarily commented out missing resume file -->
+                        <a href="./resume.txt" download class="btn btn-outline" aria-label="Download resume">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 T Zewdu. Built with ❤️ using HTML, CSS, JavaScript & Bootstrap.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" onclick="scrollToTop()" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Project Demo Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="background: var(--card-bg); border: 1px solid var(--border-color);">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalLabel">Project Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This would display a live demo or video of the project.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="./js/script.js">
+      
+    </script>
+</body>
+</html>

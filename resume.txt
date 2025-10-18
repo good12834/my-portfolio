@@ -1,0 +1,108 @@
+T ZEWDU
+Full Stack Developer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTACT INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Email: tzewdu@example.com
+LinkedIn: https://www.linkedin.com/in/good-man-15b4252a8/
+GitHub: https://github.com/good12834
+Portfolio: https://www.tzewdu.com
+
+PROFESSIONAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Dedicated and self-motivated Full Stack Developer with 6 months of intensive
+hands-on experience in modern web development. Demonstrated ability to rapidly
+acquire new technologies through self-directed learning, progressing from Python
+fundamentals to full-stack proficiency in 6 months. Passionate about creating
+innovative digital solutions with clean, efficient, and scalable code.
+
+EDUCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Full Stack Web Development Bootcamp
+Evangadi Institute | USA
+March 2025 - September 2025
+
+• Completed intensive 6-month full-stack development program
+• Mastered modern web technologies including React, Node.js, and database design
+• Developed multiple production-ready applications with real-world functionality
+• Gained expertise in responsive design, API development, and deployment
+
+TECHNICAL SKILLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Frontend Development:
+• React.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap
+• Responsive Web Design, UI/UX Principles
+
+Backend Development:
+• Node.js, Express.js, RESTful APIs
+• MySQL, Database Design & Optimization
+
+Development Tools:
+• Git & GitHub, VS Code, Netlify
+• Chrome DevTools, Postman API Testing
+
+PROFESSIONAL PROJECTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NETFLIX CLONE
+Full-Stack Streaming Platform | React, Node.js, TMDB API
+• Developed responsive Netflix-inspired streaming platform
+• Implemented movie browsing, search, and user interface
+• Integrated external APIs for dynamic content loading
+• Deployed on Netlify: https://net-clone-tzewdu-b87087.netlify.app/
+
+AMAZON CLONE
+E-Commerce Platform | React, Node.js, MongoDB, Stripe
+• Built comprehensive e-commerce solution with shopping cart functionality
+• Implemented user authentication and secure payment processing
+• Designed scalable database architecture for product management
+• Live deployment: https://amazon-clone-tzewdu-581109.netlify.app/
+
+EVANGADI FORUM
+Community Discussion Platform | React, MySQL, WebSocket
+• Created professional discussion forum with real-time messaging
+• Implemented role-based access control and content moderation
+• Developed responsive UI with modern social features
+• Built with scalable backend architecture
+
+TIMETRACK PRO
+Productivity & Analytics Tool | React, MongoDB, Chart.js
+• Enterprise-grade time tracking application with advanced analytics
+• Features team collaboration and comprehensive reporting
+• Currently in beta development phase
+
+PORTFOLIO WEBSITE
+Personal Branding Platform | HTML, CSS, JavaScript, Bootstrap
+• Modern, responsive portfolio website showcasing development projects
+• Implemented smooth animations and professional design principles
+• Optimized for performance and user experience
+
+CONTINUOUS LEARNING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Currently pursuing advanced skills in:
+• AWS Cloud Services (EC2, S3, Lambda functions)
+• Advanced React patterns and performance optimization
+• Database optimization and cloud architecture
+• DevOps practices and CI/CD pipelines
+
+PROFESSIONAL STRENGTHS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Self-motivated and disciplined learner with proven ability to master complex technologies
+• Strong analytical thinking and problem-solving capabilities
+• Attention to detail with focus on code quality and user experience
+• Collaborative team player with excellent communication skills
+• Passionate about staying current with industry best practices
+
+LANGUAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• English (Professional working proficiency)
+• Amharic (Native language)
+
+
+
+
+
+
+
